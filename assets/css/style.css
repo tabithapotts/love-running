@@ -126,7 +126,11 @@ footer {
         /*Push main content down for larger header*/
         margin-top:79px;
     }
+}
 
-
-
+/* Media query: desktops and larger 992 px and up */
+@media (min-width: 992px) {
+     #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
 }
