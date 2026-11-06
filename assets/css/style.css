@@ -83,11 +83,18 @@ h1 {
 
 /* Main content */
 main {
-  background-color: lightblue;
+  
   /* Make main element take up any surplus space to push footer down */
   flex: 1 0 auto;
-  margin-top: 47px; /* Adjust this value based on the height of your header */
+   /* Adjust this value based on the height of your header */
+  margin-top:47px;
 }
+
+ #hero {
+    height: 600px;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
+    width:100%;
+  }  
 
 /* Footer */
 #social-networks {
@@ -136,6 +143,10 @@ main {
         /*Push main content down for larger header*/
         margin-top:79px;
     }
+
+  
+
+
 }
 
 /* Media query: desktops and larger 992 px and up */
